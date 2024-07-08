@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 3px solid rgb(102, 255, 0);
+  box-shadow: 2px 2px 37px 3px black;
+  border-radius: 1rem;
+  color: white;
+  background: linear-gradient(rgb(36, 183, 36),blue);
+}
+
+body
+{
+  background: linear-gradient(blue,green);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
